@@ -3,24 +3,25 @@
 - README.md: this file
 
 - Dataset_Characteristics/
-  -  Sentiment140 Dataset
+  - Hotel Arabic-Reviews Dataset
 
 - Model/
-  - Bi_LSTM_Model
+  - Bi_LSTM_CNN_Model
 
 # Summary of the characteristics of the databases
 
 | Dataset      | Rows    | POS    | NEG    |
 |--------------|---------|--------|--------|
-| Sentiment140 | 1.600.000 | 800.000 | 800.000 |
+| HARD         | 105.698  | 52.849  | 52.849  |
 
 # Summary of the result of models
 
 | Model      | Database | Word Embeddings    | Loss    | Accuracy    |
 |--------------|---------|---------|--------|--------|
-| Bi_LSTM_Model |    Sentiment140    |   FastText   | 0.3951  | 0.8203   |
+| Bi_LSTM_CNN_Model |    HARD    |   FastText   | 0.1544   | 0.9452   |
 
 
 # Reference
 
-- [Sentiment140 dataset with 1.6 million tweets](https://www.kaggle.com/kazanova/sentiment140)
+- [Hotel Arabic-Reviews Dataset](https://github.com/elnagara/HARD-Arabic-Dataset)
+- A Deep Learning Approach Combining CNN and Bi-LSTM with SVM Classifier for Arabic Sentiment Analysis.
